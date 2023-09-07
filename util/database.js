@@ -3,6 +3,6 @@ const Sequelize = require("sequelize");
 const sequelize = new Sequelize(
   "node_complete", "root", "Luliann465$", {
      dialect: "mysql",
-     host: 'localhost'
+     host: 'localhost',
     });
     module.exports = sequelize;
